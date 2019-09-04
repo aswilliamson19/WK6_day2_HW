@@ -5,6 +5,11 @@ const Dinosaur = require('../models/dinosaur.js');
 describe('Park', function() {
 
   let park;
+  let dinosaur1;
+  let dinosaur2;
+  let dinosaur3;
+  let dinosaur4;
+  let dinosaur5;
 
   beforeEach(function () {
     dinosaur1 = new Dinosaur('T-Rex', 'carnivore', 50);

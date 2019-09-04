@@ -12,8 +12,8 @@ Park.prototype.deleteDinosaur = function (dinosaur) {
   this.collectionOfDinosaurs.splice(dinosaur);
 };
 
-Park.prototype.sortVisitorNumbers = function () {
-  
+Park.prototype.largestVisitorNumbers = function () {
+
 };
 
 module.exports = Park
